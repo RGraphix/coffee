@@ -36,6 +36,42 @@
    background-color: var(--main-color);
 }
 
+
+
+
+/* nav start */
+
+.nav-item a{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-right: 15px;
+   transition: all 0.4s;
+   
+
+}
+.nav-item a:hover{
+   color: rgb(20, 219, 20);
+}
+
+.navbar-brand{
+   height: 50px;
+   width: 100px;
+}
+
+.search{
+   height: 45px;
+   outline: none;
+   border: 2px solid rgb(20, 219, 20);
+   background-color: transparent;
+   border-radius: 20px 0px 0px 20px;
+   border-right: none;
+   
+
+}
+
+/* nav end */
 html{
    font-size: 62.5%;
    overflow-x: hidden;
@@ -65,7 +101,7 @@ section{
    font-family: 'Merienda One', cursive;
 }
 
-.btn{
+.btn12{
    display: inline-block;
    margin-top: 1rem;
    background-color: var(--main-color);
@@ -73,10 +109,12 @@ section{
    color:var(--white);
    font-size: 1.8rem;
    padding:1rem 3rem;
+   text-decoration: none;
 }
 
-.btn:hover{
-   background-color: var(--black);
+.btn12:hover{
+   background-color: rgb(206, 114, 114);
+   color: white;
 }
 
 .header{
